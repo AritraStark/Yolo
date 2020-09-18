@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.root{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.a{
+    background-image: linear-gradient(to bottom left, #0E0E0E, rgb(56, 56, 56));
+}
+
+.a1{
+    padding: 2rem 4rem;
+
+}
+
+.a1 h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.a1 p{
+    color: rgb(231, 231, 231);
+}
+
+.a1 a{
+    color: orangered;
+    text-decoration: none;
+}
+
+.a1 button{
+    background-color: orangered;
+    color: white;
+    padding: 0.5rem 4rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.a1 input{
+    background-color: transparent;
+    border: none;
+    padding: 1em 16em 1em 0.5em;
+    border-bottom: solid 1px gray;
+    color: white;
+}
+
+.a1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
+}
+
+.a1-1-1{
+    display: flex;
+}
+
+.a1-1-1 p{
+    margin: 0;
+}
+
+.a1-2{
+    display: flex;
+    padding-left: 8rem;
+}
+
+.a1-3{
+    display: flex;
+    padding: 4.5rem 8rem 0 6rem;
+}
+
+.a1-3 p{
+    margin: 0;
+}
+
+.b{
+    background-image: url('./bg.png');
+}
