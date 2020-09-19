@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
 
@@ -16,7 +19,6 @@ body{
 }
 
 .a{
-    background-image: linear-gradient(to bottom left, #0E0E0E, rgb(56, 56, 56));
 }
 
 .a1{
@@ -82,6 +84,60 @@ body{
     margin: 0;
 }
 
-.b{
+/* .b{
     background-image: url('./bg.png');
+} */
+
+
+
+/* media */
+@media only screen and (max-width:1175px){
+    body{
+        background-image: linear-gradient(to bottom left, #0E0E0E, rgb(56, 56, 56))!important;
+    }
+    
+    .root{
+        grid-template-columns: 1fr;
+    }
+    .b{
+        display: none;
+    }
+    .a svg{
+        margin: auto;
+    }
+
+    .a1{
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .a1 input{
+        padding-right: 9rem;
+    }
+
+    .a1-1{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .a1-1-1{
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .a1-2{
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .a1-3{
+        padding: 3rem 0;
+        display: grid;
+        text-align: center;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+    }
 }
+
