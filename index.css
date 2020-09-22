@@ -6,19 +6,13 @@ body{
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     background-image: url('./bg.png');
-    background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
-
+    background-size: cover;
+    overflow: scroll;
 }
 
 .root{
     margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 20fr ;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+    display: flex;
 }
 
 .a-0{
@@ -176,3 +170,72 @@ body{
     }
 }
 
+
+    @media only screen and (width:1440px) and (height:900px){
+ 
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito Sans', sans-serif;
+            background-image: url('./bg.png');
+            overflow: scroll;
+            width: 1440px;
+            height: 900px;
+        
+        
+        }
+        
+        .root{
+            margin: 0;
+            display: flex;
+            width: 1440px;
+            height: 900px;
+        }
+        
+        .a-0{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95px;
+            
+        }
+        .a1{
+            padding: 6rem 4rem;
+        }
+    }
+    @media only screen and (width:1280) and (height:800px){
+ 
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito Sans', sans-serif;
+            background-image: url('./bg.png');
+            overflow: scroll;
+            width: 1280px;
+            height: 800px;
+        
+        
+        }
+        
+        .root{
+            margin: 0;
+            display: flex;
+            width: 1280px;
+            height: 800px;
+        }
+        
+        .a-0{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95px;
+            
+        }
+        .a1{
+            padding: 6rem 4rem;
+        }
+    }
