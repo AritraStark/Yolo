@@ -205,7 +205,7 @@ body{
             padding: 6rem 4rem;
         }
     }
-    @media only screen and (width:1280) and (height:800px){
+    @media only screen and (width:1280px) and (height:800px){
  
         body{
             margin: 0;
@@ -236,6 +236,6 @@ body{
             
         }
         .a1{
-            padding: 6rem 4rem;
+            padding: 4rem 4rem;
         }
     }
