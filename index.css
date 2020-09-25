@@ -13,6 +13,7 @@ body{
 .root{
     margin: 0;
     display: flex;
+    height: 100vh;
 }
 
 .a-0{
@@ -115,9 +116,41 @@ body{
 
 
 /* media */
-@media only screen and (max-width:1175px){
+@media only screen and (max-width:1000px){
     body{
-        background-image: linear-gradient(to bottom left, #0E0E0E, rgb(56, 56, 56))!important;
+        background-image: url('./ipad.png');
+    }
+    
+    .a1{
+        grid-template-columns: 1fr;
+        height: 80%;
+        font-size: x-large;
+    }
+    
+    .a12{
+        display: none;
+    }
+
+    .a1-3{
+        padding: 4.5rem 6rem 0 4rem;
+    }
+
+    .a1 h1{
+        font-size: 3rem;
+    }
+
+    .a1-1{
+        padding: 4rem 0;
+    }
+
+    .a1 button{
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width:750px){
+    body{
+        background-image: url('./phone.png');
     }
     
     .root{
@@ -138,6 +171,11 @@ body{
     .a1{
         padding: 0 1rem;
         text-align: center;
+        grid-template-columns: 1fr;
+    }
+
+    .a12{
+        display: none;
     }
 
     .a1 input{
@@ -238,4 +276,5 @@ body{
         .a1{
             padding: 4rem 4rem;
         }
+        
     }
