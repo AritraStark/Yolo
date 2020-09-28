@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url('./bg.png');
+    background-size: cover;
+    overflow: scroll;
+}
+
+.root{
+    margin: 0;
+    display: flex;
+    height: 98vh;
+}
+
+.a-0{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    
+}
+
+.a-0-1{
+    transform: rotate(270deg);
+    display: flex;
+
+
+}
+
+.space{
+    padding: 0 1rem ;
+}
+
+.line{
+    border: 1px solid white;
+    transform: rotate(270deg);
+    margin: 1rem;
+    height: 50px;
+}
+
+.img{
+    align-items: flex-start;
+}
+
+.a1 h1{
+    color: white;
+}
+
+.a1 p{
+    color: white;
+}
+
+.a1 input{
+    border: 1px solid #707070;
+    background-color: transparent;
+    padding: 0.6em 4em;
+}
+
+.a1{
+    padding: 0 5em;
+}
+
+.prog svg{
+    height: 2.5rem;
+    margin-left: 0;
+    width: auto;
+}
+
+
+
+@media only screen and (max-width:750px){
+    body{
+        background-image: url('./phone.png');
+    }
+
+
+    .b{
+        display: none;
+    }
+
+    .a-0{
+        display: none;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .a1{
+        padding: 0 1.5em;
+    }
+
+    .a1 input{
+        padding: 0.7em 6em ;
+    }
+}
+
+
+@media only screen and (max-width:1000px and min-width:800px){
+    
+    body{
+        background-image: url('./ipad.png');
+    }
+    .a-0{
+        width: 93px;
+    }
+}
